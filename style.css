@@ -1,0 +1,36 @@
+div.song ul.options li.gG_dl_button, div.gG_dl_button {
+	background-color:#E31 !important;
+	border-radius:2px;
+	color:#fff;
+	cursor:pointer;
+	font-weight:bold;
+	margin-left:2px;
+	padding:3px;
+} div.song ul.options li.gG_dl_button:hover {
+	background-color:#D10 !important;
+} div.gG_dl_button {
+	display:inline;
+}
+div.gG_dl_link {
+	background-color:#fff;
+	border:solid 3px #E31;
+	border-radius:4px;
+	color:#000 !important;
+	display:none;
+	float:left;
+	font-size:90%;
+	padding:3px 8px;
+	position:absolute;
+} div.gG_dl_link a, div.gG_dl_link a:visited {
+	color:#000 !important;
+	text-decoration:underline;
+} div.gG_dl_link a:hover {
+	text-decoration:none;
+}
+div#capital {
+	display:none !important;
+} div#application {
+	margin-right:0px !important;
+} div#searchCapitalWrapper {
+	display:none !important;
+}

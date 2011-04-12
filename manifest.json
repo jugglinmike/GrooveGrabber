@@ -1,0 +1,16 @@
+{
+  "name": "GrooveGrabber",
+  "version": "1.0",
+  "description": "Search for a song and look for the red button labelled \"D\"!",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://listen.grooveshark.com/*"],
+	  "css": ["style.css"],
+      "js": ["md5.js", "sha1.js", "json2.js", "grabber.js"]
+    }
+  ]
+}

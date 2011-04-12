@@ -1,0 +1,3 @@
+Chrome extension to supply direct links to music assets hosted by Grooveshark.com
+
+After installation, navigate to http://grooveshark.com and preform a search. A red button will be displayed with each result, which generates a direct link when pressed. Take care to save the file with a ".mp3" extension.
